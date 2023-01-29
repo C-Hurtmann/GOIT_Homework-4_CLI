@@ -1,7 +1,7 @@
 import re
 from inspect import signature
 
-import commands as cmd
+import core.commands as cmd
 
 main_commands = {'hello': cmd.hello,
                  'add': cmd.add,
